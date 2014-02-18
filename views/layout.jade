@@ -1,0 +1,44 @@
+doctype html
+html
+    head
+        title= title
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/stylesheets/doc.css')
+        link(rel='stylesheet', href='/highlight/styles/github.css')
+    body
+        div.container
+            div.header
+                ul.nav.nav-pills.pull-right
+                    li.home.active
+                        a(href='/') 首页
+                    li.quickstart
+                        a(href='/docs/quickstart') 快速上手
+                    li.api.dropdown
+                        a.dropdown-toggle 文档 
+                            span.caret
+                        ul.dropdown-menu
+                            li
+                                a(href='/docs/api/node') Node
+                            li
+                                a(href='/docs/api/io') IO
+                            li
+                                a(href='/docs/api/event') Event
+                            li
+                                a(href='/docs/api/loader') Loader
+                            li
+                                a(href='/docs/api/module_manager') Module Manager
+                    li
+                        a(href='#') 最佳实践
+                    li
+                        a(href='http://gallery.kissyui.com/coms') 组件
+                    li
+                        a(href='#') 工具
+
+                h3.text-muted
+                    a(href='/') KISSY MINI
+            block content
+            div.footer
+                p &copy; Taobao 2014
+        script(src='/javascripts/mini-full.js')
+        script(src='/javascripts/doc.js')
