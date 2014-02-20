@@ -33,6 +33,11 @@ body {
   text-decoration: none;
 }
 
+.caption .title {
+  text-align: center; 
+  font-weight: bold;
+}
+
 .dropdown-menu {
   background-color: rgba(255,255,255,0.95);
 }

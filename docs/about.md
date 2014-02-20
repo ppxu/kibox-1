@@ -19,11 +19,11 @@
 * 需要搭配其他的开发流程，无法使用KISSY现有的开发工具（如KMC）
 
 
-### **二. 加入我们**
+### **二. 如何加入我们？**
 
 * [source code](http://gitlab.alibaba-inc.com/kissy/m)（目前仅支持内网访问）
 
-### **三. 意见反馈**
+### **三. 如何反馈意见？**
 
 * KISSY MINI 官方群：1210378325（![旺旺icon](http://gtms03.alicdn.com/tps/i3/T15nl.Fq8dXXcfAj_X-16-15.png)）
 
