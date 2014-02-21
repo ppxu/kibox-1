@@ -18,7 +18,7 @@ exports.bind = function(app) {
 		var filePath = req.params[0],
 			baseUrl = process.cwd();
 
-		var urlPath = path.resolve(baseUrl, './' + filePath + '.md'),
+		var urlPath = path.resolve(baseUrl, './kibox/' + filePath + '.md'),
 			urlPath2 = urlPath.replace('.md', '.markdown'),
 			title = filePath.split('/').pop();
 
@@ -45,7 +45,7 @@ exports.bind = function(app) {
 		var filePath = req.params[0],
 			baseUrl = process.cwd();
 
-		var urlPath = path.resolve(baseUrl, './' + filePath);
+		var urlPath = path.resolve(baseUrl, './kibox/' + filePath);
 
 		fs.exists(urlPath, function(exts) {
 			if (exts) {
